@@ -19,7 +19,7 @@ public class MedicalReport {
             String[] lines = text.split(System.lineSeparator());
 
             for (String line : lines) {
-                pdfContent.append(line).append("<br>"); // Adding <br> for line breaks in HTML
+                pdfContent.append(line).append("<br>");
             }
         } catch (IOException e) {
             e.printStackTrace();
