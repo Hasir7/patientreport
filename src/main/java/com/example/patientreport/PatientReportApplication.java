@@ -10,3 +10,4 @@ public class PatientReportApplication {
         SpringApplication.run(PatientReportApplication.class, args);
     }
 }
+
