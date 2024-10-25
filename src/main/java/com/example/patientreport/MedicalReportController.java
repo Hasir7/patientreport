@@ -12,7 +12,7 @@ public class MedicalReportController {
 
     @GetMapping("/read-pdf")
     public String readPdf() {
-        // Path to the PDF in the 'uploads' directory under resources
+
         String filePath = "src/main/resources/uploads/Report.pdf";
         return medicalReport.readPdfLineByLine(filePath);
     }
